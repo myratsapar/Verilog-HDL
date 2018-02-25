@@ -10,7 +10,15 @@ Output:
 LEDR, LEDG, Seven Segment
 
 Operators: 
-|-> & - AND 
-|-> | - OR
-|-> ^ - XOR
-|-> ~ - NOT
+
+
+& - AND
+
+
+| - OR
+
+
+^ - XOR
+
+
+~ - NOT
