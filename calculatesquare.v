@@ -1,4 +1,4 @@
-module calculatesquare(SW, LEDR); //uc bitlik sayinin karesi
+module calculatesquare(SW, LEDR);
 input [2:0] SW;
 output [5:0] LEDR;
 
@@ -15,4 +15,3 @@ assign LEDR[2] = b & ~c;
 assign LEDR[1] = 0;
 assign LEDR[0] = c;
 endmodule //3:41 PM 30-Mar-18
-
