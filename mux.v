@@ -22,7 +22,6 @@ two_to_one C(c1, c2, s0, c3);
 
 assign c = c3;
 endmodule
-
 module eight_to_one(x0, x1, x2, x3, x4, x5, x6, x7, s0, s1, s2, c);
 input x0, x1, x2, x3, x4, x5, x6, x7, s0, s1, s2;
 output c;
@@ -33,43 +32,4 @@ four_to_one B(x4, x5, x6, x7, s1, s2, c2);
 two_to_one C(c1, c2, s0, c3);
 
 assign c = c3;
-endmodule
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+endmodule //21-Apr-18 8:31 PM
