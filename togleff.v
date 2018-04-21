@@ -32,40 +32,4 @@ module t_flipflop (En, Clk, Clr, Q);
     else if (En)
       Q = ~Q;
 
-endmodule
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+endmodule //21-Apr-18 8:29 PM
